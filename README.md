@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+商品売買アプリにおけるRuby on RailsによるAPIバックエンド実装デモ
 
-Things you may want to cover:
 
-* Ruby version
+# 環境
 
-* System dependencies
+* Ruby: 2.6.6
 
-* Configuration
+* Rails: 6.0.3
 
-* Database creation
 
-* Database initialization
+# 機能
 
-* How to run the test suite
+* JWTトークンによるログイン認証
 
-* Services (job queues, cache servers, search engines, etc.)
+* fast_jsonapiによるJSON シリアライズ（https://github.com/Netflix/fast_jsonapi）
 
-* Deployment instructions
+* Kaminariによるページネーション
 
-* ...
+* N + 1クエリ問題の解消
+
+* シリアライザーにおけるAPI キャッシュの有効化
+
+* CORS有効化
